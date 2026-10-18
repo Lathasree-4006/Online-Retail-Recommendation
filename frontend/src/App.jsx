@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import "./App.css";
 
-const API_BASE = "https://online-retail-recommendation-backend.onrender.com/api";
+const API = "https://online-retail-recommendation-backend.onrender.com/api";
 const IMAGE_BASE = "https://online-retail-recommendation-backend.onrender.com";
 
 function formatNumber(value) {
