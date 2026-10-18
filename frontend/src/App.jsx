@@ -11,8 +11,8 @@ import {
 } from "lucide-react";
 import "./App.css";
 
-const API = "http://127.0.0.1:5000/api";
-const IMAGE_BASE = "http://127.0.0.1:5000";
+const API_BASE = "https://online-retail-recommendation-backend.onrender.com/api";
+const IMAGE_BASE = "https://online-retail-recommendation-backend.onrender.com";
 
 function formatNumber(value) {
   return Number(value || 0).toLocaleString("en-IN");
